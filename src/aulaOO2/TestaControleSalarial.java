@@ -6,7 +6,7 @@ public class TestaControleSalarial {
 		
 		ControleSalarial controle = new ControleSalarial();
 		
-		Funcionario f1 = new Funcionario();
+		Funcionario f1 = new Gerente();
 		f1.setSalario(1000);
 		controle.setTotalSalario(f1);
 		System.out.println(controle.getTotalSalarios());

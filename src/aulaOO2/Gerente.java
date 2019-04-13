@@ -1,8 +1,13 @@
 package aulaOO2;
 
-public class Gerente extends Funcionario{
+public class Gerente extends Funcionario implements ControleInterno2{
 
 	double getBonus() {
-		return super.getBonus() + 10000;
+		return this.salario * 0.05 + 10000;
+	}
+
+	@Override
+	public boolean verifica(String senha) {
+		return false;
 	}
 }

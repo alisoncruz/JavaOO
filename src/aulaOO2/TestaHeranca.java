@@ -3,7 +3,7 @@ package aulaOO2;
 public class TestaHeranca {
 
 	public static void main(String[] args) {
-		Funcionario f1 = new Funcionario();
+		Funcionario f1 = new Gerente();
 		
 		f1.setSalario(1000);
 		

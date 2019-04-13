@@ -6,7 +6,7 @@ public static void main(String[] args) {
 		
 		ControleBonus controle = new ControleBonus();
 		
-		Funcionario f1 = new Funcionario();
+		Funcionario f1 = new Gerente();
 		f1.setSalario(1000);
 		controle.setTotalBonus(f1);
 		System.out.println(controle.getTotalBonus());

@@ -1,6 +1,6 @@
 package aulaOO2;
 
-abstract class Funcionario {
+abstract class Funcionario2 {
 
 	protected String nome;
 	protected String cpf;
@@ -40,6 +40,8 @@ abstract class Funcionario {
 	public void setStatus(String status) {
 		this.status = status;
 	}
+	
+	
 	
 	
 }
